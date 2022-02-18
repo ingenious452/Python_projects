@@ -1,0 +1,275 @@
+[21-Oct-21 05:55:42]: DEBUG : urllib3.connectionpool : Starting new HTTPS connection (1): www.nature.com:443
+[21-Oct-21 05:55:42]: DEBUG : urllib3.connectionpool : https://www.nature.com:443 "GET /nature/articles?searchType=journalSearch&sort=PubDate&year=2020&page=1 HTTP/1.1" 303 150
+[21-Oct-21 05:55:42]: DEBUG : urllib3.connectionpool : Starting new HTTPS connection (1): idp.nature.com:443
+[21-Oct-21 05:55:43]: DEBUG : urllib3.connectionpool : https://idp.nature.com:443 "GET /authorize?response_type=cookie&client_id=grover&redirect_uri=https%3A%2F%2Fwww.nature.com%2Fnature%2Farticles%3FsearchType%3DjournalSearch%26sort%3DPubDate%26year%3D2020%26page%3D1 HTTP/1.1" 302 0
+[21-Oct-21 05:55:43]: DEBUG : urllib3.connectionpool : https://idp.nature.com:443 "GET /transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Fnature%2Farticles%3FsearchType%3DjournalSearch%26sort%3DPubDate%26year%3D2020%26page%3D1&code=76da5c42-44cc-4091-9bf3-426722dd99c5 HTTP/1.1" 302 0
+[21-Oct-21 05:55:44]: DEBUG : urllib3.connectionpool : https://www.nature.com:443 "GET /nature/articles?searchType=journalSearch&sort=PubDate&year=2020&page=1 HTTP/1.1" 200 None
+[21-Oct-21 05:55:44]: DEBUG : root : Successfully retrieved Page: 1 from https://www.nature.com/nature/articles?searchType=journalSearch&sort=PubDate&year=2020&page=1
+[21-Oct-21 05:55:44]: DEBUG : root : Successfully parsed the page.
+[21-Oct-21 05:55:44]: DEBUG : root : 20 articles tags retrieved.
+[21-Oct-21 05:55:44]: DEBUG : root : Retreving the article links.
+[21-Oct-21 05:55:44]: INFO : root : Retreiving 1 article link
+[21-Oct-21 05:55:44]: INFO : root : Retreiving 2 article link
+[21-Oct-21 05:55:44]: INFO : root : Retreiving 3 article link
+[21-Oct-21 05:55:44]: INFO : root : Retreiving 4 article link
+[21-Oct-21 05:55:44]: INFO : root : Retreiving 5 article link
+[21-Oct-21 05:55:44]: INFO : root : Retreiving 6 article link
+[21-Oct-21 05:55:44]: INFO : root : Retreiving 7 article link
+[21-Oct-21 05:55:44]: INFO : root : Retreiving 8 article link
+[21-Oct-21 05:55:44]: INFO : root : Retreiving 9 article link
+[21-Oct-21 05:55:44]: INFO : root : Retreiving 10 article link
+[21-Oct-21 05:55:44]: INFO : root : Retreiving 11 article link
+[21-Oct-21 05:55:44]: DEBUG : root : Successfully retreived News link!
+[21-Oct-21 05:55:44]: INFO : root : Retreiving 12 article link
+[21-Oct-21 05:55:44]: INFO : root : Retreiving 13 article link
+[21-Oct-21 05:55:44]: INFO : root : Retreiving 14 article link
+[21-Oct-21 05:55:44]: INFO : root : Retreiving 15 article link
+[21-Oct-21 05:55:44]: INFO : root : Retreiving 16 article link
+[21-Oct-21 05:55:44]: INFO : root : Retreiving 17 article link
+[21-Oct-21 05:55:44]: INFO : root : Retreiving 18 article link
+[21-Oct-21 05:55:44]: INFO : root : Retreiving 19 article link
+[21-Oct-21 05:55:44]: INFO : root : Retreiving 20 article link
+[21-Oct-21 05:55:44]: DEBUG : root : 1 News article link retrieved successfully.
+[21-Oct-21 05:55:44]: DEBUG : root : Requesting article: https://www.nature.com/articles/d41586-020-03611-8
+[21-Oct-21 05:55:44]: DEBUG : urllib3.connectionpool : Starting new HTTPS connection (1): www.nature.com:443
+[21-Oct-21 05:55:44]: DEBUG : urllib3.connectionpool : https://www.nature.com:443 "GET /articles/d41586-020-03611-8 HTTP/1.1" 303 150
+[21-Oct-21 05:55:44]: DEBUG : urllib3.connectionpool : Starting new HTTPS connection (1): idp.nature.com:443
+[21-Oct-21 05:55:45]: DEBUG : urllib3.connectionpool : https://idp.nature.com:443 "GET /authorize?response_type=cookie&client_id=grover&redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fd41586-020-03611-8 HTTP/1.1" 302 0
+[21-Oct-21 05:55:45]: DEBUG : urllib3.connectionpool : https://idp.nature.com:443 "GET /transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fd41586-020-03611-8&code=e3fc4976-1568-4783-9702-d7f10dd87eea HTTP/1.1" 302 0
+[21-Oct-21 05:55:46]: DEBUG : urllib3.connectionpool : https://www.nature.com:443 "GET /articles/d41586-020-03611-8 HTTP/1.1" 200 None
+[21-Oct-21 05:55:46]: DEBUG : root : Successfully retrieved article page from https://www.nature.com/articles/d41586-020-03611-8
+[21-Oct-21 05:55:46]: DEBUG : root : Successfully parsed the page.
+[21-Oct-21 05:55:46]: DEBUG : root : Retreiving the article title.
+[21-Oct-21 05:55:46]: DEBUG : root : Retreving article content
+[21-Oct-21 05:55:51]: DEBUG : urllib3.connectionpool : Starting new HTTPS connection (1): www.nature.com:443
+[21-Oct-21 05:55:52]: DEBUG : urllib3.connectionpool : https://www.nature.com:443 "GET /nature/articles?searchType=journalSearch&sort=PubDate&year=2020&page=2 HTTP/1.1" 303 150
+[21-Oct-21 05:55:52]: DEBUG : urllib3.connectionpool : Starting new HTTPS connection (1): idp.nature.com:443
+[21-Oct-21 05:55:52]: DEBUG : urllib3.connectionpool : https://idp.nature.com:443 "GET /authorize?response_type=cookie&client_id=grover&redirect_uri=https%3A%2F%2Fwww.nature.com%2Fnature%2Farticles%3FsearchType%3DjournalSearch%26sort%3DPubDate%26year%3D2020%26page%3D2 HTTP/1.1" 302 0
+[21-Oct-21 05:55:53]: DEBUG : urllib3.connectionpool : https://idp.nature.com:443 "GET /transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Fnature%2Farticles%3FsearchType%3DjournalSearch%26sort%3DPubDate%26year%3D2020%26page%3D2&code=0628bfd0-ba6c-4ad5-8903-c2407b8654b0 HTTP/1.1" 302 0
+[21-Oct-21 05:55:53]: DEBUG : urllib3.connectionpool : https://www.nature.com:443 "GET /nature/articles?searchType=journalSearch&sort=PubDate&year=2020&page=2 HTTP/1.1" 200 None
+[21-Oct-21 05:55:53]: DEBUG : root : Successfully retrieved Page: 2 from https://www.nature.com/nature/articles?searchType=journalSearch&sort=PubDate&year=2020&page=2
+[21-Oct-21 05:55:53]: DEBUG : root : Successfully parsed the page.
+[21-Oct-21 05:55:53]: DEBUG : root : 20 articles tags retrieved.
+[21-Oct-21 05:55:53]: DEBUG : root : Retreving the article links.
+[21-Oct-21 05:55:53]: INFO : root : Retreiving 1 article link
+[21-Oct-21 05:55:53]: INFO : root : Retreiving 2 article link
+[21-Oct-21 05:55:53]: INFO : root : Retreiving 3 article link
+[21-Oct-21 05:55:53]: INFO : root : Retreiving 4 article link
+[21-Oct-21 05:55:53]: INFO : root : Retreiving 5 article link
+[21-Oct-21 05:55:53]: INFO : root : Retreiving 6 article link
+[21-Oct-21 05:55:53]: INFO : root : Retreiving 7 article link
+[21-Oct-21 05:55:53]: INFO : root : Retreiving 8 article link
+[21-Oct-21 05:55:53]: INFO : root : Retreiving 9 article link
+[21-Oct-21 05:55:53]: INFO : root : Retreiving 10 article link
+[21-Oct-21 05:55:53]: INFO : root : Retreiving 11 article link
+[21-Oct-21 05:55:53]: INFO : root : Retreiving 12 article link
+[21-Oct-21 05:55:53]: INFO : root : Retreiving 13 article link
+[21-Oct-21 05:55:53]: DEBUG : root : Successfully retreived News link!
+[21-Oct-21 05:55:53]: INFO : root : Retreiving 14 article link
+[21-Oct-21 05:55:53]: DEBUG : root : Successfully retreived News link!
+[21-Oct-21 05:55:53]: INFO : root : Retreiving 15 article link
+[21-Oct-21 05:55:53]: INFO : root : Retreiving 16 article link
+[21-Oct-21 05:55:53]: DEBUG : root : Successfully retreived News link!
+[21-Oct-21 05:55:53]: INFO : root : Retreiving 17 article link
+[21-Oct-21 05:55:53]: INFO : root : Retreiving 18 article link
+[21-Oct-21 05:55:53]: INFO : root : Retreiving 19 article link
+[21-Oct-21 05:55:53]: INFO : root : Retreiving 20 article link
+[21-Oct-21 05:55:53]: DEBUG : root : 3 News article link retrieved successfully.
+[21-Oct-21 05:55:53]: DEBUG : root : Requesting article: https://www.nature.com/articles/d41586-020-03651-0
+[21-Oct-21 05:55:53]: DEBUG : urllib3.connectionpool : Starting new HTTPS connection (1): www.nature.com:443
+[21-Oct-21 05:55:54]: DEBUG : urllib3.connectionpool : https://www.nature.com:443 "GET /articles/d41586-020-03651-0 HTTP/1.1" 303 150
+[21-Oct-21 05:55:54]: DEBUG : urllib3.connectionpool : Starting new HTTPS connection (1): idp.nature.com:443
+[21-Oct-21 05:55:54]: DEBUG : urllib3.connectionpool : https://idp.nature.com:443 "GET /authorize?response_type=cookie&client_id=grover&redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fd41586-020-03651-0 HTTP/1.1" 302 0
+[21-Oct-21 05:55:55]: DEBUG : urllib3.connectionpool : https://idp.nature.com:443 "GET /transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fd41586-020-03651-0&code=0a87f1f9-48ae-4e68-a103-4a606ecbffc9 HTTP/1.1" 302 0
+[21-Oct-21 05:55:55]: DEBUG : urllib3.connectionpool : https://www.nature.com:443 "GET /articles/d41586-020-03651-0 HTTP/1.1" 200 None
+[21-Oct-21 05:55:56]: DEBUG : root : Successfully retrieved article page from https://www.nature.com/articles/d41586-020-03651-0
+[21-Oct-21 05:55:56]: DEBUG : root : Successfully parsed the page.
+[21-Oct-21 05:55:56]: DEBUG : root : Retreiving the article title.
+[21-Oct-21 05:55:56]: DEBUG : root : Retreving article content
+[21-Oct-21 05:56:01]: DEBUG : root : Requesting article: https://www.nature.com/articles/d41586-020-03598-2
+[21-Oct-21 05:56:01]: DEBUG : urllib3.connectionpool : Starting new HTTPS connection (1): www.nature.com:443
+[21-Oct-21 05:56:01]: DEBUG : urllib3.connectionpool : https://www.nature.com:443 "GET /articles/d41586-020-03598-2 HTTP/1.1" 303 150
+[21-Oct-21 05:56:01]: DEBUG : urllib3.connectionpool : Starting new HTTPS connection (1): idp.nature.com:443
+[21-Oct-21 05:56:02]: DEBUG : urllib3.connectionpool : https://idp.nature.com:443 "GET /authorize?response_type=cookie&client_id=grover&redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fd41586-020-03598-2 HTTP/1.1" 302 0
+[21-Oct-21 05:56:02]: DEBUG : urllib3.connectionpool : https://idp.nature.com:443 "GET /transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fd41586-020-03598-2&code=c5d9ac4d-eb95-4dc1-ae3d-a46b612e2f10 HTTP/1.1" 302 0
+[21-Oct-21 05:56:03]: DEBUG : urllib3.connectionpool : https://www.nature.com:443 "GET /articles/d41586-020-03598-2 HTTP/1.1" 200 None
+[21-Oct-21 05:56:03]: DEBUG : root : Successfully retrieved article page from https://www.nature.com/articles/d41586-020-03598-2
+[21-Oct-21 05:56:03]: DEBUG : root : Successfully parsed the page.
+[21-Oct-21 05:56:03]: DEBUG : root : Retreiving the article title.
+[21-Oct-21 05:56:03]: DEBUG : root : Retreving article content
+[21-Oct-21 05:56:08]: DEBUG : root : Requesting article: https://www.nature.com/articles/d41586-020-03605-6
+[21-Oct-21 05:56:08]: DEBUG : urllib3.connectionpool : Starting new HTTPS connection (1): www.nature.com:443
+[21-Oct-21 05:56:09]: DEBUG : urllib3.connectionpool : https://www.nature.com:443 "GET /articles/d41586-020-03605-6 HTTP/1.1" 303 150
+[21-Oct-21 05:56:09]: DEBUG : urllib3.connectionpool : Starting new HTTPS connection (1): idp.nature.com:443
+[21-Oct-21 05:56:09]: DEBUG : urllib3.connectionpool : https://idp.nature.com:443 "GET /authorize?response_type=cookie&client_id=grover&redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fd41586-020-03605-6 HTTP/1.1" 302 0
+[21-Oct-21 05:56:09]: DEBUG : urllib3.connectionpool : https://idp.nature.com:443 "GET /transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fd41586-020-03605-6&code=a12b019a-62bc-4d4a-9bc8-3a035bc61627 HTTP/1.1" 302 0
+[21-Oct-21 05:56:10]: DEBUG : urllib3.connectionpool : https://www.nature.com:443 "GET /articles/d41586-020-03605-6 HTTP/1.1" 200 None
+[21-Oct-21 05:56:10]: DEBUG : root : Successfully retrieved article page from https://www.nature.com/articles/d41586-020-03605-6
+[21-Oct-21 05:56:10]: DEBUG : root : Successfully parsed the page.
+[21-Oct-21 05:56:10]: DEBUG : root : Retreiving the article title.
+[21-Oct-21 05:56:10]: DEBUG : root : Retreving article content
+[21-Oct-21 05:56:16]: DEBUG : urllib3.connectionpool : Starting new HTTPS connection (1): www.nature.com:443
+[21-Oct-21 05:56:16]: DEBUG : urllib3.connectionpool : https://www.nature.com:443 "GET /nature/articles?searchType=journalSearch&sort=PubDate&year=2020&page=3 HTTP/1.1" 303 150
+[21-Oct-21 05:56:16]: DEBUG : urllib3.connectionpool : Starting new HTTPS connection (1): idp.nature.com:443
+[21-Oct-21 05:56:17]: DEBUG : urllib3.connectionpool : https://idp.nature.com:443 "GET /authorize?response_type=cookie&client_id=grover&redirect_uri=https%3A%2F%2Fwww.nature.com%2Fnature%2Farticles%3FsearchType%3DjournalSearch%26sort%3DPubDate%26year%3D2020%26page%3D3 HTTP/1.1" 302 0
+[21-Oct-21 05:56:17]: DEBUG : urllib3.connectionpool : https://idp.nature.com:443 "GET /transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Fnature%2Farticles%3FsearchType%3DjournalSearch%26sort%3DPubDate%26year%3D2020%26page%3D3&code=afc98fc7-0d38-4a96-8818-9afc1b8e0dbf HTTP/1.1" 302 0
+[21-Oct-21 05:56:17]: DEBUG : urllib3.connectionpool : https://www.nature.com:443 "GET /nature/articles?searchType=journalSearch&sort=PubDate&year=2020&page=3 HTTP/1.1" 200 None
+[21-Oct-21 05:56:18]: DEBUG : root : Successfully retrieved Page: 3 from https://www.nature.com/nature/articles?searchType=journalSearch&sort=PubDate&year=2020&page=3
+[21-Oct-21 05:56:18]: DEBUG : root : Successfully parsed the page.
+[21-Oct-21 05:56:18]: DEBUG : root : 20 articles tags retrieved.
+[21-Oct-21 05:56:18]: DEBUG : root : Retreving the article links.
+[21-Oct-21 05:56:18]: INFO : root : Retreiving 1 article link
+[21-Oct-21 05:56:18]: INFO : root : Retreiving 2 article link
+[21-Oct-21 05:56:18]: INFO : root : Retreiving 3 article link
+[21-Oct-21 05:56:18]: INFO : root : Retreiving 4 article link
+[21-Oct-21 05:56:18]: INFO : root : Retreiving 5 article link
+[21-Oct-21 05:56:18]: INFO : root : Retreiving 6 article link
+[21-Oct-21 05:56:18]: INFO : root : Retreiving 7 article link
+[21-Oct-21 05:56:18]: INFO : root : Retreiving 8 article link
+[21-Oct-21 05:56:18]: INFO : root : Retreiving 9 article link
+[21-Oct-21 05:56:18]: INFO : root : Retreiving 10 article link
+[21-Oct-21 05:56:18]: DEBUG : root : Successfully retreived News link!
+[21-Oct-21 05:56:18]: INFO : root : Retreiving 11 article link
+[21-Oct-21 05:56:18]: INFO : root : Retreiving 12 article link
+[21-Oct-21 05:56:18]: DEBUG : root : Successfully retreived News link!
+[21-Oct-21 05:56:18]: INFO : root : Retreiving 13 article link
+[21-Oct-21 05:56:18]: INFO : root : Retreiving 14 article link
+[21-Oct-21 05:56:18]: INFO : root : Retreiving 15 article link
+[21-Oct-21 05:56:18]: INFO : root : Retreiving 16 article link
+[21-Oct-21 05:56:18]: INFO : root : Retreiving 17 article link
+[21-Oct-21 05:56:18]: INFO : root : Retreiving 18 article link
+[21-Oct-21 05:56:18]: INFO : root : Retreiving 19 article link
+[21-Oct-21 05:56:18]: DEBUG : root : Successfully retreived News link!
+[21-Oct-21 05:56:18]: INFO : root : Retreiving 20 article link
+[21-Oct-21 05:56:18]: DEBUG : root : 3 News article link retrieved successfully.
+[21-Oct-21 05:56:18]: DEBUG : root : Requesting article: https://www.nature.com/articles/d41586-020-03621-6
+[21-Oct-21 05:56:18]: DEBUG : urllib3.connectionpool : Starting new HTTPS connection (1): www.nature.com:443
+[21-Oct-21 05:56:18]: DEBUG : urllib3.connectionpool : https://www.nature.com:443 "GET /articles/d41586-020-03621-6 HTTP/1.1" 303 150
+[21-Oct-21 05:56:18]: DEBUG : urllib3.connectionpool : Starting new HTTPS connection (1): idp.nature.com:443
+[21-Oct-21 05:56:19]: DEBUG : urllib3.connectionpool : https://idp.nature.com:443 "GET /authorize?response_type=cookie&client_id=grover&redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fd41586-020-03621-6 HTTP/1.1" 302 0
+[21-Oct-21 05:56:19]: DEBUG : urllib3.connectionpool : https://idp.nature.com:443 "GET /transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fd41586-020-03621-6&code=9aa76c94-9665-4978-8177-96d0fb20e882 HTTP/1.1" 302 0
+[21-Oct-21 05:56:20]: DEBUG : urllib3.connectionpool : https://www.nature.com:443 "GET /articles/d41586-020-03621-6 HTTP/1.1" 200 None
+[21-Oct-21 05:56:20]: DEBUG : root : Successfully retrieved article page from https://www.nature.com/articles/d41586-020-03621-6
+[21-Oct-21 05:56:20]: DEBUG : root : Successfully parsed the page.
+[21-Oct-21 05:56:20]: DEBUG : root : Retreiving the article title.
+[21-Oct-21 05:56:20]: DEBUG : root : Retreving article content
+[21-Oct-21 05:56:25]: DEBUG : root : Requesting article: https://www.nature.com/articles/d41586-020-03593-7
+[21-Oct-21 05:56:25]: DEBUG : urllib3.connectionpool : Starting new HTTPS connection (1): www.nature.com:443
+[21-Oct-21 05:56:25]: DEBUG : urllib3.connectionpool : https://www.nature.com:443 "GET /articles/d41586-020-03593-7 HTTP/1.1" 303 150
+[21-Oct-21 05:56:25]: DEBUG : urllib3.connectionpool : Starting new HTTPS connection (1): idp.nature.com:443
+[21-Oct-21 05:56:26]: DEBUG : urllib3.connectionpool : https://idp.nature.com:443 "GET /authorize?response_type=cookie&client_id=grover&redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fd41586-020-03593-7 HTTP/1.1" 302 0
+[21-Oct-21 05:56:26]: DEBUG : urllib3.connectionpool : https://idp.nature.com:443 "GET /transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fd41586-020-03593-7&code=f9d6e5bd-3f0d-4dae-b959-363f16b03275 HTTP/1.1" 302 0
+[21-Oct-21 05:56:27]: DEBUG : urllib3.connectionpool : https://www.nature.com:443 "GET /articles/d41586-020-03593-7 HTTP/1.1" 200 None
+[21-Oct-21 05:56:27]: DEBUG : root : Successfully retrieved article page from https://www.nature.com/articles/d41586-020-03593-7
+[21-Oct-21 05:56:27]: DEBUG : root : Successfully parsed the page.
+[21-Oct-21 05:56:27]: DEBUG : root : Retreiving the article title.
+[21-Oct-21 05:56:27]: DEBUG : root : Retreving article content
+[21-Oct-21 05:56:32]: DEBUG : root : Requesting article: https://www.nature.com/articles/d41586-020-03561-1
+[21-Oct-21 05:56:32]: DEBUG : urllib3.connectionpool : Starting new HTTPS connection (1): www.nature.com:443
+[21-Oct-21 05:56:32]: DEBUG : urllib3.connectionpool : https://www.nature.com:443 "GET /articles/d41586-020-03561-1 HTTP/1.1" 303 150
+[21-Oct-21 05:56:32]: DEBUG : urllib3.connectionpool : Starting new HTTPS connection (1): idp.nature.com:443
+[21-Oct-21 05:56:33]: DEBUG : urllib3.connectionpool : https://idp.nature.com:443 "GET /authorize?response_type=cookie&client_id=grover&redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fd41586-020-03561-1 HTTP/1.1" 302 0
+[21-Oct-21 05:56:33]: DEBUG : urllib3.connectionpool : https://idp.nature.com:443 "GET /transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fd41586-020-03561-1&code=aaf4614d-e168-4209-b254-3bb27fe9aa72 HTTP/1.1" 302 0
+[21-Oct-21 05:56:34]: DEBUG : urllib3.connectionpool : https://www.nature.com:443 "GET /articles/d41586-020-03561-1 HTTP/1.1" 200 None
+[21-Oct-21 05:56:34]: DEBUG : root : Successfully retrieved article page from https://www.nature.com/articles/d41586-020-03561-1
+[21-Oct-21 05:56:34]: DEBUG : root : Successfully parsed the page.
+[21-Oct-21 05:56:34]: DEBUG : root : Retreiving the article title.
+[21-Oct-21 05:56:34]: DEBUG : root : Retreving article content
+[21-Oct-21 05:56:39]: DEBUG : urllib3.connectionpool : Starting new HTTPS connection (1): www.nature.com:443
+[21-Oct-21 05:56:40]: DEBUG : urllib3.connectionpool : https://www.nature.com:443 "GET /nature/articles?searchType=journalSearch&sort=PubDate&year=2020&page=4 HTTP/1.1" 303 150
+[21-Oct-21 05:56:40]: DEBUG : urllib3.connectionpool : Starting new HTTPS connection (1): idp.nature.com:443
+[21-Oct-21 05:56:40]: DEBUG : urllib3.connectionpool : https://idp.nature.com:443 "GET /authorize?response_type=cookie&client_id=grover&redirect_uri=https%3A%2F%2Fwww.nature.com%2Fnature%2Farticles%3FsearchType%3DjournalSearch%26sort%3DPubDate%26year%3D2020%26page%3D4 HTTP/1.1" 302 0
+[21-Oct-21 05:56:41]: DEBUG : urllib3.connectionpool : https://idp.nature.com:443 "GET /transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Fnature%2Farticles%3FsearchType%3DjournalSearch%26sort%3DPubDate%26year%3D2020%26page%3D4&code=fe001bdc-2942-4a81-908a-a30ae5df96f9 HTTP/1.1" 302 0
+[21-Oct-21 05:56:41]: DEBUG : urllib3.connectionpool : https://www.nature.com:443 "GET /nature/articles?searchType=journalSearch&sort=PubDate&year=2020&page=4 HTTP/1.1" 200 None
+[21-Oct-21 05:56:41]: DEBUG : root : Successfully retrieved Page: 4 from https://www.nature.com/nature/articles?searchType=journalSearch&sort=PubDate&year=2020&page=4
+[21-Oct-21 05:56:42]: DEBUG : root : Successfully parsed the page.
+[21-Oct-21 05:56:42]: DEBUG : root : 20 articles tags retrieved.
+[21-Oct-21 05:56:42]: DEBUG : root : Retreving the article links.
+[21-Oct-21 05:56:42]: INFO : root : Retreiving 1 article link
+[21-Oct-21 05:56:42]: INFO : root : Retreiving 2 article link
+[21-Oct-21 05:56:42]: INFO : root : Retreiving 3 article link
+[21-Oct-21 05:56:42]: INFO : root : Retreiving 4 article link
+[21-Oct-21 05:56:42]: INFO : root : Retreiving 5 article link
+[21-Oct-21 05:56:42]: INFO : root : Retreiving 6 article link
+[21-Oct-21 05:56:42]: INFO : root : Retreiving 7 article link
+[21-Oct-21 05:56:42]: INFO : root : Retreiving 8 article link
+[21-Oct-21 05:56:42]: INFO : root : Retreiving 9 article link
+[21-Oct-21 05:56:42]: INFO : root : Retreiving 10 article link
+[21-Oct-21 05:56:42]: INFO : root : Retreiving 11 article link
+[21-Oct-21 05:56:42]: INFO : root : Retreiving 12 article link
+[21-Oct-21 05:56:42]: INFO : root : Retreiving 13 article link
+[21-Oct-21 05:56:42]: INFO : root : Retreiving 14 article link
+[21-Oct-21 05:56:42]: INFO : root : Retreiving 15 article link
+[21-Oct-21 05:56:42]: INFO : root : Retreiving 16 article link
+[21-Oct-21 05:56:42]: INFO : root : Retreiving 17 article link
+[21-Oct-21 05:56:42]: INFO : root : Retreiving 18 article link
+[21-Oct-21 05:56:42]: INFO : root : Retreiving 19 article link
+[21-Oct-21 05:56:42]: DEBUG : root : Successfully retreived News link!
+[21-Oct-21 05:56:42]: INFO : root : Retreiving 20 article link
+[21-Oct-21 05:56:42]: DEBUG : root : 1 News article link retrieved successfully.
+[21-Oct-21 05:56:42]: DEBUG : root : Requesting article: https://www.nature.com/articles/d41586-020-03585-7
+[21-Oct-21 05:56:42]: DEBUG : urllib3.connectionpool : Starting new HTTPS connection (1): www.nature.com:443
+[21-Oct-21 05:56:42]: DEBUG : urllib3.connectionpool : https://www.nature.com:443 "GET /articles/d41586-020-03585-7 HTTP/1.1" 303 150
+[21-Oct-21 05:56:42]: DEBUG : urllib3.connectionpool : Starting new HTTPS connection (1): idp.nature.com:443
+[21-Oct-21 05:56:42]: DEBUG : urllib3.connectionpool : https://idp.nature.com:443 "GET /authorize?response_type=cookie&client_id=grover&redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fd41586-020-03585-7 HTTP/1.1" 302 0
+[21-Oct-21 05:56:43]: DEBUG : urllib3.connectionpool : https://idp.nature.com:443 "GET /transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fd41586-020-03585-7&code=85f3ea50-d419-4f83-99a7-d89398cea89f HTTP/1.1" 302 0
+[21-Oct-21 05:56:43]: DEBUG : urllib3.connectionpool : https://www.nature.com:443 "GET /articles/d41586-020-03585-7 HTTP/1.1" 200 None
+[21-Oct-21 05:56:44]: DEBUG : root : Successfully retrieved article page from https://www.nature.com/articles/d41586-020-03585-7
+[21-Oct-21 05:56:44]: DEBUG : root : Successfully parsed the page.
+[21-Oct-21 05:56:44]: DEBUG : root : Retreiving the article title.
+[21-Oct-21 05:56:44]: DEBUG : root : Retreving article content
+[21-Oct-21 05:56:49]: DEBUG : urllib3.connectionpool : Starting new HTTPS connection (1): www.nature.com:443
+[21-Oct-21 05:56:49]: DEBUG : urllib3.connectionpool : https://www.nature.com:443 "GET /nature/articles?searchType=journalSearch&sort=PubDate&year=2020&page=5 HTTP/1.1" 303 150
+[21-Oct-21 05:56:49]: DEBUG : urllib3.connectionpool : Starting new HTTPS connection (1): idp.nature.com:443
+[21-Oct-21 05:56:50]: DEBUG : urllib3.connectionpool : https://idp.nature.com:443 "GET /authorize?response_type=cookie&client_id=grover&redirect_uri=https%3A%2F%2Fwww.nature.com%2Fnature%2Farticles%3FsearchType%3DjournalSearch%26sort%3DPubDate%26year%3D2020%26page%3D5 HTTP/1.1" 302 0
+[21-Oct-21 05:56:50]: DEBUG : urllib3.connectionpool : https://idp.nature.com:443 "GET /transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Fnature%2Farticles%3FsearchType%3DjournalSearch%26sort%3DPubDate%26year%3D2020%26page%3D5&code=067809c2-a1a1-40a2-9c0f-10557c3f165c HTTP/1.1" 302 0
+[21-Oct-21 05:56:51]: DEBUG : urllib3.connectionpool : https://www.nature.com:443 "GET /nature/articles?searchType=journalSearch&sort=PubDate&year=2020&page=5 HTTP/1.1" 200 None
+[21-Oct-21 05:56:51]: DEBUG : root : Successfully retrieved Page: 5 from https://www.nature.com/nature/articles?searchType=journalSearch&sort=PubDate&year=2020&page=5
+[21-Oct-21 05:56:51]: DEBUG : root : Successfully parsed the page.
+[21-Oct-21 05:56:51]: DEBUG : root : 20 articles tags retrieved.
+[21-Oct-21 05:56:51]: DEBUG : root : Retreving the article links.
+[21-Oct-21 05:56:51]: INFO : root : Retreiving 1 article link
+[21-Oct-21 05:56:51]: INFO : root : Retreiving 2 article link
+[21-Oct-21 05:56:51]: INFO : root : Retreiving 3 article link
+[21-Oct-21 05:56:51]: INFO : root : Retreiving 4 article link
+[21-Oct-21 05:56:51]: DEBUG : root : Successfully retreived News link!
+[21-Oct-21 05:56:51]: INFO : root : Retreiving 5 article link
+[21-Oct-21 05:56:51]: INFO : root : Retreiving 6 article link
+[21-Oct-21 05:56:51]: INFO : root : Retreiving 7 article link
+[21-Oct-21 05:56:51]: INFO : root : Retreiving 8 article link
+[21-Oct-21 05:56:51]: INFO : root : Retreiving 9 article link
+[21-Oct-21 05:56:51]: INFO : root : Retreiving 10 article link
+[21-Oct-21 05:56:51]: DEBUG : root : Successfully retreived News link!
+[21-Oct-21 05:56:51]: INFO : root : Retreiving 11 article link
+[21-Oct-21 05:56:51]: INFO : root : Retreiving 12 article link
+[21-Oct-21 05:56:51]: INFO : root : Retreiving 13 article link
+[21-Oct-21 05:56:51]: INFO : root : Retreiving 14 article link
+[21-Oct-21 05:56:51]: INFO : root : Retreiving 15 article link
+[21-Oct-21 05:56:51]: INFO : root : Retreiving 16 article link
+[21-Oct-21 05:56:51]: INFO : root : Retreiving 17 article link
+[21-Oct-21 05:56:51]: INFO : root : Retreiving 18 article link
+[21-Oct-21 05:56:51]: INFO : root : Retreiving 19 article link
+[21-Oct-21 05:56:51]: INFO : root : Retreiving 20 article link
+[21-Oct-21 05:56:51]: DEBUG : root : 2 News article link retrieved successfully.
+[21-Oct-21 05:56:51]: DEBUG : root : Requesting article: https://www.nature.com/articles/d41586-020-03564-y
+[21-Oct-21 05:56:51]: DEBUG : urllib3.connectionpool : Starting new HTTPS connection (1): www.nature.com:443
+[21-Oct-21 05:56:51]: DEBUG : urllib3.connectionpool : https://www.nature.com:443 "GET /articles/d41586-020-03564-y HTTP/1.1" 303 150
+[21-Oct-21 05:56:51]: DEBUG : urllib3.connectionpool : Starting new HTTPS connection (1): idp.nature.com:443
+[21-Oct-21 05:56:52]: DEBUG : urllib3.connectionpool : https://idp.nature.com:443 "GET /authorize?response_type=cookie&client_id=grover&redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fd41586-020-03564-y HTTP/1.1" 302 0
+[21-Oct-21 05:56:52]: DEBUG : urllib3.connectionpool : https://idp.nature.com:443 "GET /transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fd41586-020-03564-y&code=2ca266eb-9121-48f4-9774-380e42bc2808 HTTP/1.1" 302 0
+[21-Oct-21 05:56:53]: DEBUG : urllib3.connectionpool : https://www.nature.com:443 "GET /articles/d41586-020-03564-y HTTP/1.1" 200 None
+[21-Oct-21 05:56:53]: DEBUG : root : Successfully retrieved article page from https://www.nature.com/articles/d41586-020-03564-y
+[21-Oct-21 05:56:53]: DEBUG : root : Successfully parsed the page.
+[21-Oct-21 05:56:53]: DEBUG : root : Retreiving the article title.
+[21-Oct-21 05:56:53]: DEBUG : root : Retreving article content
+[21-Oct-21 05:56:58]: DEBUG : root : Requesting article: https://www.nature.com/articles/d41586-020-03419-6
+[21-Oct-21 05:56:58]: DEBUG : urllib3.connectionpool : Starting new HTTPS connection (1): www.nature.com:443
+[21-Oct-21 05:56:59]: DEBUG : urllib3.connectionpool : https://www.nature.com:443 "GET /articles/d41586-020-03419-6 HTTP/1.1" 303 150
+[21-Oct-21 05:56:59]: DEBUG : urllib3.connectionpool : Starting new HTTPS connection (1): idp.nature.com:443
+[21-Oct-21 05:56:59]: DEBUG : urllib3.connectionpool : https://idp.nature.com:443 "GET /authorize?response_type=cookie&client_id=grover&redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fd41586-020-03419-6 HTTP/1.1" 302 0
+[21-Oct-21 05:57:00]: DEBUG : urllib3.connectionpool : https://idp.nature.com:443 "GET /transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fd41586-020-03419-6&code=b202c6e7-ae53-4a31-97d8-2427fda80d46 HTTP/1.1" 302 0
+[21-Oct-21 05:57:00]: DEBUG : urllib3.connectionpool : https://www.nature.com:443 "GET /articles/d41586-020-03419-6 HTTP/1.1" 200 None
+[21-Oct-21 05:57:00]: DEBUG : root : Successfully retrieved article page from https://www.nature.com/articles/d41586-020-03419-6
+[21-Oct-21 05:57:00]: DEBUG : root : Successfully parsed the page.
+[21-Oct-21 05:57:00]: DEBUG : root : Retreiving the article title.
+[21-Oct-21 05:57:00]: DEBUG : root : Retreving article content
