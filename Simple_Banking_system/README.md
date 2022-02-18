@@ -9,7 +9,7 @@ We'll also see how Luhn algorithm can help us avoid mistakes when entering the c
 As an overall result, you'll get new experience in Python.
 
 
-## Luhn Algorithm in action
+## Luhn Algorithm
 
 The Luhn algorithm is used to validate a credit card number or other identifying numbers, such as Social Security. The Luhn algorithm, also called the Luhn formula or modulus 10, checks the sum of the digits in the card number and checks whether the sum matches the expected result or if there is an error in the number sequence. After working through the algorithm, if the total modulus 10 equals zero, then the number is valid according to the Luhn method.
 
