@@ -8,7 +8,7 @@ But it will still be good enough for some situations, and building it will be fu
 In this project, you will learn how HTTP works and how to work with it in Python. You will become familiar with Python input and output. You will also need to parse HTML, so you'll get some experience with that, too.
 
 
-Description
+## Description
 
 Every browser accepts a string from the user and then displays a web page. The string from the user is a URL (Uniform Resource Locator) and looks something like this: https://www.google.com. After receiving the URL, the browser has a lot of work to do, but in a nutshell, this work can be described as finding the web page. The web page is located somewhere on the Internet, and the browser has to retrieve it. Since the https://www. part is always the same, it is often omitted and the link is shortened to google.com.
 
